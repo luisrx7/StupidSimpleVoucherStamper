@@ -11,12 +11,10 @@ cd StupidSimpleVoucherStamper
 pip install -r requirements.txt
 
 ## Usage
-After you have installed the requirements and edited run.py to your needs you can run the script with the following command:
-python3 run.py
 
 ### Generate Codes
 Edit run.py and change the following variables:
-
+```python
     # The string that will be used to generate the codes
     initial_string = "ABC123"
     # The number of codes that will be generated
@@ -25,12 +23,12 @@ Edit run.py and change the following variables:
     initial_image = "sample.jpg"
     # The lebgth of the code
     code_length = 8
-
+```
 ### Stamp Codes
 Replace input/sample.jgp with your image
 
 Edit run.py and chenge the following arguments of the stamp_codes function:
-
+```python
     # The name of the input image
     initial_image = "sample.jpg"
     # The font size of the code
@@ -42,14 +40,21 @@ Edit run.py and chenge the following arguments of the stamp_codes function:
     # The position of the code (pixels) in the image
     x = 0
     y = 0
-
+```
 
 ### Aggregate Images
 Edit run.py and change the following arguments of the aggregate_images function:
-
+```python
     # The offset (pixels) between the images
     padding = 10 
     # The number of images per row
     rows = 5
     # Tthe number of images per column
     columns = 5
+```
+
+### Runnig the script
+```bash
+#After you have installed the requirements and edited run.py to your needs you can run the script with the following command:
+python3 run.py
+```
