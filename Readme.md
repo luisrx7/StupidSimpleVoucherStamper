@@ -9,10 +9,10 @@ The purpose of this tool is to create a list of codes generated from an initial 
 git clone 
 cd StupidSimpleVoucherStamper
 pip install -r requirements.txt
-python3 run.py
 
 ## Usage
-
+After you have installed the requirements and edited run.py to your needs you can run the script with the following command:
+python3 run.py
 
 ### Generate Codes
 Edit run.py and change the following variables:
@@ -30,6 +30,7 @@ Edit run.py and change the following variables:
 Replace input/sample.jgp with your image
 
 Edit run.py and chenge the following arguments of the stamp_codes function:
+
     # The name of the input image
     initial_image = "sample.jpg"
     # The font size of the code
