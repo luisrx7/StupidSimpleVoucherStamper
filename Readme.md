@@ -2,13 +2,13 @@
 
 ## Use Case
 
-The purpose of this tool is to create a list of codes generated from an initial string and stamp these codes onto an image. After that you can aggregate the stamped images into bigger image and print these images.
+The purpose of this tool is to create a list of codes generated from an initial string and stamp these codes onto an image. After that, you can aggregate the stamped images into a bigger image and print these images.
 
 ## Installation
 ```bash
-git clone 
-cd StupidSimpleVoucherStamper
-pip install -r requirements.txt
+git clone;
+cd StupidSimpleVoucherStamper;
+pip install -r requirements.txt;
 ```
 ## Usage
 
@@ -27,7 +27,7 @@ Edit run.py and change the following variables:
 ### Stamp Codes
 Replace input/sample.jgp with your image
 
-Edit run.py and chenge the following arguments of the stamp_codes function:
+Edit run.py and change the following arguments of the stamp_codes function:
 ```python
     # The name of the input image
     initial_image = "sample.jpg"
@@ -53,7 +53,7 @@ Edit run.py and change the following arguments of the aggregate_images function:
     columns = 5
 ```
 
-### Runnig the script
+### Running the script
 ```bash
 #After you have installed the requirements and edited run.py to your needs you can run the script with the following command:
 python3 run.py
