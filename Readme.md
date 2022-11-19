@@ -5,11 +5,11 @@
 The purpose of this tool is to create a list of codes generated from an initial string and stamp these codes onto an image. After that you can aggregate the stamped images into bigger image and print these images.
 
 ## Installation
-
+```bash
 git clone 
 cd StupidSimpleVoucherStamper
 pip install -r requirements.txt
-
+```
 ## Usage
 
 ### Generate Codes
